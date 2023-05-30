@@ -12,7 +12,7 @@ const initialState = {
   isNoValueModal: false,
   newtext: "",
   saveId: 0,
-  totaltasks: 0,
+  totaltasks: -1,
 };
 
 const reducer = (state, action) => {
