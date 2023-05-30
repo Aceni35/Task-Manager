@@ -7,7 +7,7 @@ const Task = ({ id, action, dispatch }) => {
     <>
       <div className="row border p-2">
         <div className="col-10 fs-5">{action}</div>
-        <div className="col-1">
+        <div className="col-md-1 col-sm-2">
           <button
             className="btn btn-info"
             onClick={() => {
@@ -17,7 +17,7 @@ const Task = ({ id, action, dispatch }) => {
             <Edit />
           </button>
         </div>
-        <div className="col-1">
+        <div className="col-md-1 col-sm-2">
           <button
             className="btn btn-danger"
             onClick={() => {
